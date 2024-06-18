@@ -1,4 +1,4 @@
-from scapy.all import *
+from scapy.all import IP, TCP, UDP, sniff
 
 def packet_callback(packet):
     # Extract relevant information from the packet
